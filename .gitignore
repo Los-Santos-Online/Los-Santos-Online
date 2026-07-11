@@ -1,0 +1,17 @@
+.env
+node_modules
+/node_modules/
+/playerInfo/
+ssl/
+certs/*.pem
+certs/*.key
+certs/*.crt
+certs/*.cer
+certs/*.txt
+certs/**/*.pem
+certs/**/*.key
+certs/**/*.crt
+certs/**/*.csr
+certs/**/*.cer
+certs/**/*.txt
+debug/

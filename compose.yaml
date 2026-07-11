@@ -1,0 +1,111 @@
+services:
+  certificate-generator:
+    profiles: ["setup"]
+    build:
+      context: .
+      target: certificate-generator
+    environment:
+      TLS_DOMAIN: "${DOMAIN:?Set DOMAIN in .env}"
+      TLS_DNS_NAMES: "${DOMAIN:?Set DOMAIN in .env},*.${DOMAIN:?Set DOMAIN in .env}"
+      TLS_VALID_DAYS: "3650"
+      FORCE_CERT_REGEN: "${FORCE_CERT_REGEN:-0}"
+      FORCE_TLS_REGEN: "${FORCE_TLS_REGEN:-0}"
+      CERT_OUTPUT_DIR: /output
+    volumes:
+      - "${CERTS_HOST_DIR:-./certs}:/output"
+    restart: "no"
+
+  postgres:
+    image: postgres:16.14-alpine3.23
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: "lso"
+      POSTGRES_PASSWORD: "${SERVER_SECRET:?Set SERVER_SECRET in .env}"
+      POSTGRES_DB: "lso"
+    expose:
+      - "5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    stop_grace_period: 30s
+
+  database-init:
+    build:
+      context: .
+      target: database-init
+    restart: "no"
+    environment:
+      POSTGRES_PRISMA_URL: "postgresql://lso:${SERVER_SECRET:?Set SERVER_SECRET in .env}@postgres:5432/lso?schema=public&sslmode=disable"
+      POSTGRES_URL_NON_POOLING: "postgresql://lso:${SERVER_SECRET:?Set SERVER_SECRET in .env}@postgres:5432/lso?schema=public&sslmode=disable"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api:
+    build:
+      context: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DOMAIN: "${DOMAIN:?Set DOMAIN in .env}"
+      ROS_HOST: "${DOMAIN:?Set DOMAIN in .env}"
+      SERVER_SECRET: "${SERVER_SECRET:?Set SERVER_SECRET in .env}"
+      POSTGRES_PRISMA_URL: "postgresql://lso:${SERVER_SECRET:?Set SERVER_SECRET in .env}@postgres:5432/lso?schema=public&sslmode=disable"
+      POSTGRES_URL_NON_POOLING: "postgresql://lso:${SERVER_SECRET:?Set SERVER_SECRET in .env}@postgres:5432/lso?schema=public&sslmode=disable"
+      S3_ENDPOINT: "${S3_ENDPOINT:?Set S3_ENDPOINT in .env}"
+      S3_ACCESS_KEY: "${S3_ACCESS_KEY:?Set S3_ACCESS_KEY in .env}"
+      S3_SECRET_KEY: "${S3_SECRET_KEY:?Set S3_SECRET_KEY in .env}"
+      S3_BUCKET_NAME: "${S3_BUCKET_NAME:?Set S3_BUCKET_NAME in .env}"
+      S3_UGC_ENDPOINT: "${S3_UGC_ENDPOINT:?Set S3_UGC_ENDPOINT in .env}"
+      S3_UGC_ACCESS_KEY: "${S3_UGC_ACCESS_KEY:?Set S3_UGC_ACCESS_KEY in .env}"
+      S3_UGC_SECRET_KEY: "${S3_UGC_SECRET_KEY:?Set S3_UGC_SECRET_KEY in .env}"
+      S3_UGC_BUCKET_NAME: "${S3_UGC_BUCKET_NAME:?Set S3_UGC_BUCKET_NAME in .env}"
+      RELAY_PUBLIC_ADDRESS: "${RELAY_PUBLIC_ADDRESS:?Set RELAY_PUBLIC_ADDRESS in .env}"
+      RELAY_PUBLIC_PORT: "${RELAY_PUBLIC_PORT:?Set RELAY_PUBLIC_PORT in .env}"
+      TLS_ENABLED: "true"
+      TLS_KEY_PATH: /run/secrets/tls_key
+      TLS_CERT_PATH: /run/secrets/tls_cert
+      HTTPS_ENDPOINT_PORT: "443"
+    ports:
+      - "${HTTP_PUBLIC_PORT:-80}:${ENDPOINT_PORT:-80}"
+      - "${HTTPS_PUBLIC_PORT:-443}:443"
+    volumes:
+      - ./certs:/app/certs
+    secrets:
+      - tls_key
+      - tls_cert
+    depends_on:
+      postgres:
+        condition: service_healthy
+      database-init:
+        condition: service_completed_successfully
+
+  discord-bot:
+    build:
+      context: .
+    restart: on-failure
+    env_file: .env
+    environment:
+      SERVER_SECRET: "${SERVER_SECRET:?Set SERVER_SECRET in .env}"
+      POSTGRES_PRISMA_URL: "postgresql://lso:${SERVER_SECRET:?Set SERVER_SECRET in .env}@postgres:5432/lso?schema=public&sslmode=disable"
+      POSTGRES_URL_NON_POOLING: "postgresql://lso:${SERVER_SECRET:?Set SERVER_SECRET in .env}@postgres:5432/lso?schema=public&sslmode=disable"
+    command: ["node", "src/discordCommandBot.js"]
+    healthcheck:
+      disable: true
+    depends_on:
+      api:
+        condition: service_healthy
+
+volumes:
+  postgres-data:
+
+secrets:
+  tls_key:
+    file: "./certs/tls/tls.key"
+  tls_cert:
+    file: "./certs/tls/tls.crt"

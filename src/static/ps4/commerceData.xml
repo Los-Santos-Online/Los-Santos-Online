@@ -1,0 +1,219 @@
+<RageCommerceData>
+  <Version>3</Version>
+  <PlatformName>ps4</PlatformName>
+  <TitleName>gta5</TitleName>
+  <Region>SCEA</Region>
+  <Language>en</Language>
+  <Categories>
+    <Category id="TOP_DEFAULT">
+      <CatMemberships />
+      <PriorityTags />
+    </Category>
+    <Category id="Packs">
+      <Name>PACKS</Name>
+      <Desc />
+      <CatMemberships>
+        <CatMembership id="TOP_DEFAULT" />
+      </CatMemberships>
+      <ImagePaths template="2">
+        <ImagePath path="cloud:/store/images/categoryextra.dds" />
+      </ImagePaths>
+      <PriorityTags />
+    </Category>
+    <Category id="Cash">
+      <Name>CASH</Name>
+      <Desc />
+      <CatMemberships>
+        <CatMembership id="TOP_DEFAULT" />
+      </CatMemberships>
+      <ImagePaths template="2">
+        <ImagePath path="cloud:/store/images/categoryextra.dds" />
+      </ImagePaths>
+      <PriorityTags>
+        <PriorityTag name="MP" priority="1" />
+      </PriorityTags>
+    </Category>
+  </Categories>
+  <Products>
+    <Product id="starter_pack" platformProductId="STARTERPACKIG001" releaseTime="">
+      <Name>Criminal Enterprise Starter Pack</Name>
+      <ShortDesc />
+      <LongDesc />
+      <ImagePaths template="0">
+        <ImagePath path="store/images/packs/GTAV_STORE_Starter_Pack_EN.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Packs" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+    <Product id="starter_pack_GWS" platformProductId="STARTERPACKIGGW1" releaseTime="">
+      <Name>Criminal Enterprise Starter Pack and Great White Shark Card Bundle</Name>
+      <ShortDesc />
+      <LongDesc />
+      <ImagePaths template="0">
+        <ImagePath path="store/images/packs/GTAV_STORE_Starter_Pack_and_GWS_EN.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Packs" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+    <Product id="starter_pack_WS" platformProductId="STARTERPACKIGWS1" releaseTime="">
+      <Name>Criminal Enterprise Starter Pack and Whale Shark Card Bundle</Name>
+      <ShortDesc />
+      <LongDesc />
+      <ImagePaths template="0">
+        <ImagePath path="store/images/packs/GTAV_STORE_Starter_Pack_and_WS_EN.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Packs" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+    <Product id="starter_pack_MS" platformProductId="STARTERPACKIGME1" releaseTime="">
+      <Name>Criminal Enterprise Starter Pack and Megalodon Shark Card Bundle</Name>
+      <ShortDesc />
+      <LongDesc />
+      <ImagePaths template="0">
+        <ImagePath path="store/images/packs/GTAV_STORE_Starter_Pack_and_MS_EN.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Packs" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+    <Product id="cashpack_F" platformProductId="GTAVINGAMECASH0F" releaseTime="" consumableId="NGAMEF">
+      <Name>Megalodon Shark Cash Card - $[cash pack amount]</Name>
+      <ShortDesc />
+      <LongDesc />
+      <ImagePaths template="0">
+        <ImagePath path="store/images/cash/GTA_Megalodon_InGameStore_512x256.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Cash" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+    <Product id="cashpack_E" platformProductId="GTAVINGAMECASH0E" releaseTime="" consumableId="NGAMEE">
+      <Name>Golden Whale Shark Cash Card - $[cash pack amount]</Name>
+      <ShortDesc>Golden Whale Shark Cash Card - $[cash pack amount]</ShortDesc>
+      <LongDesc>Golden Whale Shark Cash Card - $[cash pack amount]</LongDesc>
+      <ImagePaths template="0">
+        <ImagePath path="store/images/cash/GTA_WhaleShark_InGameStore_512x256.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Cash" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+    <Product id="cashpack_D" platformProductId="GTAVINGAMECASH0D" releaseTime="" consumableId="NGAMED">
+      <Name>Great White Shark Cash Card - $[cash pack amount]</Name>
+      <ShortDesc>Great White Shark Cash Card - $[cash pack amount]</ShortDesc>
+      <LongDesc>Great White Shark Cash Card - $[cash pack amount]</LongDesc>
+      <ImagePaths template="0">
+        <ImagePath path="store/images/cash/GTA_GreatWhite_InGameStore_512x256.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Cash" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+    <Product id="cashpack_C" platformProductId="GTAVINGAMECASH0C" releaseTime="" consumableId="NGAMEC">
+      <Name>Bull Shark Cash Card - $[cash pack amount]</Name>
+      <ShortDesc>Bull Shark Cash Card - $[cash pack amount]</ShortDesc>
+      <LongDesc>Bull Shark Cash Card - $[cash pack amount]</LongDesc>
+      <ImagePaths template="0">
+        <ImagePath path="store/images/cash/GTA_BullShark_InGameStore_512x256.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Cash" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+    <Product id="cashpack_B" platformProductId="GTAVINGAMECASH0B" releaseTime="" consumableId="NGAMEB">
+      <Name>Tiger Shark Cash Card - $[cash pack amount]</Name>
+      <ShortDesc>Tiger Shark Cash Card - $[cash pack amount]</ShortDesc>
+      <LongDesc>Tiger Shark Cash Card - $[cash pack amount]</LongDesc>
+      <ImagePaths template="0">
+        <ImagePath path="store/images/cash/GTA_TigerShark_InGameStore_512x256.dds" />
+      </ImagePaths>
+      <CatMemberships>
+        <CatMembership id="Cash" />
+      </CatMemberships>
+      <PriorityTags />
+      <ContainedPackageNames />
+      <Dependencies />
+      <Exclusions />
+      <SubscriptionDependencies />
+      <SubscriptionExclusions />
+      <SubscriptionUpsells />
+      <EnumExclusions />
+      <EnumDependencies />
+    </Product>
+  </Products>
+</RageCommerceData>

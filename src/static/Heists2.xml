@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="QueryContent">
+
+<Status>1</Status>
+<Result Count="17" Total="17" Hash="0">
+<r c="zgQt8r6ozkKPTEuFmgq5Qw">
+    <m ca="rstar" cd="1424024601" f2="-1" n="Fleeca Job - Scope Out" l="en" ld="1538697600" pd="1424024602" rci="hK5OgJk1BkinXGGXghhTMg" ud="1512568650" un="Rockstar" v="41">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -2983.093,
+        "y": 435.312,
+        "z": 23.325
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 0.921,
+      "camp": -1.56,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 2,
+      "num": 2,
+      "rank": 12,
+      "start": {
+        "x": -2962.791,
+        "y": 467.142,
+        "z": 14.201
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Observe security at the Fleeca Bank on the Western Highway. Then collect Paige and some equipment from the factory, and come back to the apartment to plan the score.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":229976016,"pu":84280455,"qt":2795003,"qu":2239666}</s>
+</r>
+<r c="IfUWqLSgyEapZzki83NBLw">
+    <m ca="rstar" cd="1424173502" f2="-1" n="Fleeca Job - Kuruma" l="en" ld="1538697600" pd="1424173503" rci="V7yEdnL6TEyU3i-U1Rv_pQ" ud="1512996161" un="Rockstar" v="326">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -1175.558,
+        "y": -641.932,
+        "z": 26.096
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 89.917,
+      "camp": 7.15,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 2,
+      "num": 2,
+      "rank": 12,
+      "start": {
+        "x": -1062.436,
+        "y": -770.46,
+        "z": 18.336
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Source the getaway car for the Fleeca Job. It's currently being looked after by a Little Seoul stick up crew in a Del Perro parking lot.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":240622251,"pu":83373883,"qt":1625945,"qu":1212920}</s>
+</r>
+<r c="EfrzmUFNeUGGde9LTk1dDA">
+    <m ca="rstar" cd="1426502407" f2="-1" n="Humane Raid - Key Codes" l="en" ld="1538697600" pd="1426502409" rci="BWsCWtmnvEWXBrprK9hDHA" ud="1512996089" un="Rockstar" v="64">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -331.747,
+        "y": -1495.084,
+        "z": 64.8
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -88.76,
+      "camp": -30.0,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 140.768,
+        "y": -1076.333,
+        "z": 28.192
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 4
+    }
+  }
+}]]></da>
+        <de><![CDATA[Meet a contact in Downtown to receive the Humane Labs key codes. Set up lookouts and security at the meet in case of interruption.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":241609442,"pu":48589496,"qt":1141092,"qu":1032632}</s>
+</r>
+<r c="N0GRKlmbq06V4b3_4buX5Q">
+    <m ca="rstar" cd="1424880106" f2="-1" n="Humane Raid - Key Codes " l="en" ld="1538697600" pd="1424880108" rci="CvGcgHoGwUuA_1hEo-f8Hg" ud="1512999444" un="Rockstar" v="83">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -331.747,
+        "y": -1495.084,
+        "z": 64.8
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -88.76,
+      "camp": -30.0,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -331.747,
+        "y": -1495.084,
+        "z": 29.656
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 4
+    }
+  }
+}]]></da>
+        <de><![CDATA[Meet a contact in Downtown to receive the Humane Labs key codes. Set up lookouts and security at the meet in case of interruption.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":90784418,"pu":41736385,"qt":614105,"qu":570343}</s>
+</r>
+<r c="vo8ISbkfi0-M-noDbOT2-g">
+    <m ca="rstar" cd="1424881625" f2="-1" n="Humane Raid - Insurgents" l="en" ld="1538697600" pd="1424881626" rci="6k6LOpnf2E-GG38OhjS-TA" ud="1512999552" un="Rockstar" v="381">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 2507.732,
+        "y": 1966.465,
+        "z": 73.897
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -17.259,
+      "camp": 0.0,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 2590.002,
+        "y": 2800.093,
+        "z": 33.153
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Take two Insurgent LAPVs from a Merryweather test site at the Davis Quartz Quarry for use in the raid on Humane Labs.   ]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":85089144,"pu":40948766,"qt":1453906,"qu":1304342}</s>
+</r>
+<r c="Htoso5jOu0iicWgiSQUhgQ">
+    <m ca="rstar" cd="1424344272" f2="-1" n="Humane Raid - EMP" l="en" ld="1538697600" pd="1424344273" rci="nSWwSwAf3EaHZWsk449lBg" ud="1512996152" un="Rockstar" v="901">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 1259.378,
+        "y": -3310.822,
+        "z": 21.454
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -156.839,
+      "camp": -16.72,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 1738.24,
+        "y": 3285.394,
+        "z": 40.131
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Get hold of an Electromagnetic Pulse device to shut down power at Humane Labs. It's currently installed in a Hydra jump jet.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":39947922,"pu":24903887,"qt":1335511,"qu":1204272}</s>
+</r>
+<r c="0psDCymaHU60W4_Lc-6MPQ">
+    <m ca="rstar" cd="1424344399" f2="-1" n="Humane Raid - EMP " l="en" ld="1538697600" pd="1424344403" rci="qRsMyKTHCEaL0qJQJR7JKQ" ud="1512996012" un="Rockstar" v="184">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 1259.378,
+        "y": -3310.822,
+        "z": 21.454
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -156.839,
+      "camp": -16.72,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 1738.24,
+        "y": 3285.394,
+        "z": 40.131
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Get hold of an Electromagnetic Pulse device to shut down power at Humane Labs. It's currently installed in a Hydra jump jet.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":40036164,"pu":24943863,"qt":1304959,"qu":1176782}</s>
+</r>
+<r c="K4R-JYalJEaxP4m_5hf2wg">
+    <m ca="rstar" cd="1424536717" f2="-1" n="Humane Raid - Valkyrie" l="en" ld="1538697600" pd="1424536718" rci="ciWN4gwmakid4lW-nSllcA" ud="1512996186" un="Rockstar" v="222">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 519.82,
+        "y": -3028.569,
+        "z": 79.814
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 22.06,
+      "camp": -4.39,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 476.581,
+        "y": -3338.281,
+        "z": 5.07
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Acquire a Valkyrie helicopter gunship for the raid on Humane Labs. Merryweather Security are storing it at their base in the Los Santos Naval Port.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":75238388,"pu":36996624,"qt":1437578,"qu":1296686}</s>
+</r>
+<r c="yE4JmNnDlky6zEnRGX2MiA">
+    <m ca="rstar" cd="1424195267" f2="-1" n="Humane Raid - Deliver EMP" l="en" ld="1538697600" pd="1424195268" rci="v-8OOQYzxE-Zvqj5xO03DQ" ud="1512999583" un="Rockstar" v="852">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 712.487,
+        "y": 4152.644,
+        "z": 43.244
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -7.078,
+      "camp": -5.47,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 3528.318,
+        "y": 3728.03,
+        "z": 35.447
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Get the EMP device into Humane Labs so it can be triggered during the raid. It will have been fitted into the stolen Insurgent LAPV. Store the LAPV in the lab without drawing attention.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":65232777,"pu":33389220,"qt":3525393,"qu":3025189}</s>
+</r>
+<r c="QG2qSGgwOkCpJVbJItmhkw">
+    <m ca="rstar" cd="1424278775" f2="-1" n="Pacific Standard - Vans" l="en" ld="1538697600" pd="1424278776" rci="zCxFg29teE2ReKGnr0L4Bg" ud="1520327649" un="Rockstar" v="29">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 1170.614,
+        "y": -1324.741,
+        "z": 52.512
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 94.541,
+      "camp": 0.0,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 287.674,
+        "y": -1585.549,
+        "z": 29.533
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Get hold of a Post Op van fitted with a transponder that can be reprogrammed to disable the Pacific Standard dye packs. You'll have to photograph a few vans in the field to identify the right one.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":98077387,"pu":32938970,"qt":2271858,"qu":2025986}</s>
+</r>
+<r c="HOBHGVQPF0ifTQU4pPPtsg">
+    <m ca="rstar" cd="1426501914" f2="-1" n="Pacific Standard - Signal" l="en" ld="1538697600" pd="1426501918" rci="6ClY8ZA_DkuBUdZ_fPn6Rw" ud="1512996146" un="Rockstar" v="464">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -1577.01,
+        "y": 5163.794,
+        "z": 21.568
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -175.955,
+      "camp": -8.36,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -3223.285,
+        "y": 849.656,
+        "z": 2.164
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Bring the transponder to Avi Schwartzman, a signal expert, so he can tune it to the right frequency for the Pacific Standard dye packs. Avi's a fugitive hiding out in North Chumash.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":91932552,"pu":31139160,"qt":1873063,"qu":1674171}</s>
+</r>
+<r c="NhzQoOoxaUamj5OL8vxdmA">
+    <m ca="rstar" cd="1424166195" f2="-1" n="Pacific Standard - Hack" l="en" ld="1538697600" pd="1424166196" rci="OiSO3Z0YdkCaEqVHhhkj4Q" ud="1520327680" un="Rockstar" v="470">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 318.426,
+        "y": 158.248,
+        "z": 120.037
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 141.019,
+      "camp": -22.379,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 91.523,
+        "y": 166.996,
+        "z": 103.544
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Borrow a hacking rig from a rival high-end heist crew in Vinewood. Take out the guards, swap the setup out of their van and into ours, distract the crew, and bring the van to Paige.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":93893775,"pu":29959364,"qt":1254413,"qu":1138793}</s>
+</r>
+<r c="UEdF_WW8zEaYyY2qeyY3DQ">
+    <m ca="rstar" cd="1424194432" f2="-1" n="Pacific Standard - Convoy" l="en" ld="1538697600" pd="1424194433" rci="Cy2OZSwCt0-mSXY00o4SNw" ud="1512999537" un="Rockstar" v="335">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -200.354,
+        "y": 4145.05,
+        "z": 45.628
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -11.963,
+      "camp": -1.25,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -219.562,
+        "y": 4160.755,
+        "z": 41.458
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Hijack a Merryweather convoy in Blaine County to get thermal charges to use on the security doors at the Pacific Standard.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":85566747,"pu":28079389,"qt":1734433,"qu":1553699}</s>
+</r>
+<r c="QxR-d8WzB06kazBaGOp5FQ">
+    <m ca="rstar" cd="1426501737" f2="-1" n="Pacific Standard - Bikes" l="en" ld="1538697600" pd="1426501741" rci="Y4zpRQDfvkawfFDR1Uxi2A" ud="1512999499" un="Rockstar" v="217">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 934.654,
+        "y": -139.476,
+        "z": 95.664
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -65.939,
+      "camp": -28.76,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 939.845,
+        "y": -131.775,
+        "z": 74.065
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Source the getaway vehicles for the Pacific Standard Job. Take four state of the art sports bikes from the Lost Clubhouse in East Los Santos and store them near the bank.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":93253640,"pu":27741005,"qt":917838,"qu":847290}</s>
+</r>
+<r c="hAxpqxAb5kW0Qj4lCq8FaQ">
+    <m ca="rstar" cd="1426498272" f2="-1" n="Prison Break - Plane" l="en" ld="1538697600" pd="1426498275" rci="7-w96-PU4kSevhtG5YwUHQ" ud="1512996124" un="Rockstar" v="138">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 2488.131,
+        "y": 4171.335,
+        "z": 60.09
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 30.039,
+      "camp": 0.0,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 2098.925,
+        "y": 4818.326,
+        "z": 40.406
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Steal an aircraft from the Vagos contraband smugglers at McKenzie Airfield. To be used to get Rashkovsky out of the country after the prison break.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":147637873,"pu":61944094,"qt":4328030,"qu":3694149}</s>
+</r>
+<r c="tWELOeqe0k-Rmeov9jBYyw">
+    <m ca="rstar" cd="1424704298" f2="-1" n="Prison Break - Bus" l="en" ld="1538697600" pd="1424704299" rci="oSXhVwaHH0KDOzg0rfIj3Q" ud="1512999519" un="Rockstar" v="205">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 1502.508,
+        "y": 1677.833,
+        "z": 132.256
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -20.197,
+      "camp": 1.53,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 1873.234,
+        "y": 2604.802,
+        "z": 44.672
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Hijack a prison transport bus in a high security convoy for use in the break out. When clear of the authorities, store it near Sandy Shores.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":140652383,"pu":60966955,"qt":2968399,"qu":2599461}</s>
+</r>
+<r c="N0GRKlmbq06V4b3_4buX5Q">
+    <m ca="rstar" cd="1424880106" f2="-1" n="Humane Raid - Key Codes " l="en" ld="1538697600" pd="1424880108" rci="CvGcgHoGwUuA_1hEo-f8Hg" ud="1512999444" un="Rockstar" v="83">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -331.747,
+        "y": -1495.084,
+        "z": 64.8
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -88.76,
+      "camp": -30.0,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -331.747,
+        "y": -1495.084,
+        "z": 29.656
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 4
+    }
+  }
+}]]></da>
+        <de><![CDATA[Meet a contact in Downtown to receive the Humane Labs key codes. Set up lookouts and security at the meet in case of interruption.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":90784418,"pu":41736385,"qt":614105,"qu":570343}</s>
+</r>
+</Result>
+</Response>
+

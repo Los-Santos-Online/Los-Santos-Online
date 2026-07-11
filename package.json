@@ -1,0 +1,37 @@
+{
+  "name": "grand-theft-auto-online",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/main.js",
+    "start": "node ./src/main.js",
+    "start:bot": "node ./src/discordCommandBot.js",
+    "validate": "node --input-type=commonjs -e \"require('dotenv').config();const s=encodeURIComponent(process.env.SERVER_SECRET||'validation-only');process.env.POSTGRES_PRISMA_URL||='postgresql://lso:'+s+'@localhost:5432/lso?schema=public';process.env.POSTGRES_URL_NON_POOLING||=process.env.POSTGRES_PRISMA_URL;const r=require('child_process').spawnSync(process.execPath,['node_modules/prisma/build/index.js','validate'],{stdio:'inherit',env:process.env});process.exit(r.status??1)\" && node --check ./src/main.js && node --check ./src/discordCommandBot.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0",
+    "@prisma/client": "^5.13.0",
+    "aes-js": "^3.1.2",
+    "axios": "^1.7.7",
+    "bcrypt": "^6.0.0",
+    "bytebuffer": "^5.0.1",
+    "crypto-js": "^4.2.0",
+    "dirname-filename-esm": "^1.1.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "json5": "^2.2.3",
+    "morgan": "^1.11.0",
+    "sharp": "^0.33.5",
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prisma": "^5.13.0"
+  }
+}

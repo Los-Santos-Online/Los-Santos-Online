@@ -1,0 +1,17 @@
+.git
+.env
+node_modules
+ssl
+debug
+certs/*.pem
+certs/*.key
+certs/*.crt
+certs/*.cer
+certs/*.txt
+certs/**/*.pem
+certs/**/*.key
+certs/**/*.crt
+certs/**/*.csr
+certs/**/*.cer
+certs/**/*.txt
+npm-debug.log*

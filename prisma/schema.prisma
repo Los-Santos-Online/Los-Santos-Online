@@ -1,0 +1,530 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+}
+
+model User {
+  id                   String                @id @default(cuid())
+  RockstarId           Int                   @unique @default(autoincrement())
+  name                 String?
+  email                String                @unique
+  emailVerified        DateTime?
+  image                String?
+  role                 String                @default("user")
+  banned               Boolean               @default(false)
+  accounts             Account[]
+  hasOnboarded         Boolean               @default(false)
+  PS4Username          String?               @unique
+  PS4LoginCode         String?               @unique
+  PS4AccessCode        String?               @unique
+  PS4ConsoleId         String?
+  XBLGamertag          String                @default("")
+  XUID                 String                @default("")
+  NPAvatarUrl          String                @default("")
+  PresenceAttributes   String                @default("")
+  IPAddress            String                @default("")
+  Port                 Int                   @default(0)
+  CountryCode          String
+  LanguageCode         String
+  PCEmail              String                @default("")
+  PCPassword           String                @default("")
+  PCNickname           String                @default("")
+  SessionId            String                @unique
+  SessionKey           String                @unique
+  SessionTicket        String                @unique
+  SCAuthToken          String                @unique
+  Ticket               String                @unique
+  ClanTag              String                @default("LSO")
+  CrewEmblem           String                @default("")
+  primaryClanId        Int?
+  primaryClan          Clan?                 @relation("PrimaryClan", fields: [primaryClanId], references: [id])
+  createdAt            DateTime              @default(now())
+  updatedAt            DateTime              @updatedAt
+  lastUsernameUpdate   DateTime?
+  blueSphereAccountId  String?               @unique
+  blueSphereOnlineId   String?               @unique
+  gameVersion          String?               @default("")
+  activeSessions       ActivePlayer[]
+  launchVerifications  LaunchVerification[]
+  GameSession          GameSession[]
+  discordId            String?               @unique
+  reportsCreated       Report[]              @relation("ReportedBy")
+  reportsReceived      Report[]              @relation("ReportedUser")
+  reportMessages       ReportMessage[]
+  ipAddressRecords     UserIPAddress[]
+  clanMemberships      ClanMembership[]
+  clanInvitesSent      ClanInvite[]          @relation("ClanInviteInviter")
+  clanInvitesReceived  ClanInvite[]          @relation("ClanInviteInvitee")
+  clanJoinRequests     ClanJoinRequest[]     @relation("ClanJoinRequester")
+  clanWallMessages     ClanWallMessage[]
+  missionBookmarks     UGCMissionBookmark[]
+  missionPlaylists     UGCMissionPlaylist[]
+}
+
+model Tunable {
+  id      String  @id @default(cuid())
+  name    String  @unique
+  type    String
+  value   String
+  enabled Boolean
+  global  String  @default("MP_GLOBALS")
+}
+
+model Account {
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([provider, providerAccountId])
+}
+
+model GiftCodes {
+  id           String  @id @default(cuid())
+  code         String  @unique
+  length       String //Could be 1 month or permanent or any arbirtary amount that I say
+  usedByUserId String
+  used         Boolean
+}
+
+model VerificationToken {
+  identifier String
+  token      String
+  expires    DateTime
+
+  @@id([identifier, token])
+}
+
+model StatLookup {
+  Name                     String  @id @unique
+  Hash                     String  @unique
+  Type                     Int
+  RawType                  String
+  Category                 Int
+  Group                    Int
+  Dirty                    Boolean
+  IsOnlineData             Boolean
+  IsProfileStat            Boolean
+  IsCommunityStat          Boolean
+  ServerAuthoritative      Boolean
+  DirtyInThisSession       Boolean
+  DownloadPriority         Int
+  FlushPriority            Int
+  ReadForRemotePlayers     Boolean
+  IsCharacterStat          Boolean
+  IsPlayerStat             Boolean
+  TriggerEventValueChanged Boolean
+  IsProfileSetting         Boolean
+  BlockReset               Boolean
+  BlockProfileStatFlush    Boolean
+  PlayerInventory          Boolean
+  IsNoSaveStat             Boolean
+  AlwaysFlush              Boolean
+}
+
+model UGC {
+  contentId        String                   @id
+  rootContentId    String
+  description      String?
+  data             String?
+  category         String?
+  fileVersion0     Int?
+  fileVersion1     Int?
+  fileVersion2     Int?
+  language         String?
+  username         String?
+  name             String?
+  accountId        Int?
+  createdDate      String?
+  publishedDate    String?
+  rockstarId       Int?
+  userId           String?
+  updatedDate      String?
+  version          Int?
+  isVerified       Boolean?                 @default(false)
+  isLegacy         Boolean?                 @default(false)
+  isPublished      Boolean?                 @default(false)
+  missionBookmarks UGCMissionBookmark[]
+  playlistItems    UGCMissionPlaylistItem[]
+
+  @@index([rootContentId])
+  @@index([contentId])
+  @@index([category, isPublished, updatedDate])
+}
+
+model UGCMissionBookmark {
+  id        String   @id @default(cuid())
+  userId    String
+  contentId String
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  mission   UGC      @relation(fields: [contentId], references: [contentId], onDelete: Cascade)
+
+  @@unique([userId, contentId])
+  @@index([contentId])
+  @@index([userId, createdAt])
+}
+
+model UGCMissionPlaylist {
+  id          String                   @id @default(cuid())
+  userId      String
+  name        String
+  description String?
+  createdAt   DateTime                 @default(now())
+  updatedAt   DateTime                 @updatedAt
+  user        User                     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  items       UGCMissionPlaylistItem[]
+
+  @@unique([userId, name])
+  @@index([userId, createdAt])
+}
+
+model UGCMissionPlaylistItem {
+  id         String             @id @default(cuid())
+  playlistId String
+  contentId  String
+  sortOrder  Int                @default(0)
+  addedAt    DateTime           @default(now())
+  playlist   UGCMissionPlaylist @relation(fields: [playlistId], references: [id], onDelete: Cascade)
+  mission    UGC                @relation(fields: [contentId], references: [contentId], onDelete: Cascade)
+
+  @@unique([playlistId, contentId])
+  @@index([playlistId, sortOrder])
+  @@index([contentId])
+}
+
+model Messages {
+  id                    String   @id @default(uuid())
+  message               String
+  recipent              String
+  hasBeenSentToRecipent Boolean  @default(false)
+  recievedTimestamp     DateTime @default(now())
+  notes                 String   @default("")
+}
+
+model GameSession {
+  id      String  @id @default(cuid())
+  matchId String  @unique
+  owner   String // Ticket or user identifier
+  userId  String? // Optional relation to User
+  user    User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // Session configuration
+  numSlots        Int // Total number of slots
+  availableSlots  Int // Currently available slots
+  platform        String @default("")
+  gameVersion     String @default("")
+
+  // Matchmaking attributes (stored as JSON for flexibility)
+  attrsJson  String // JSON string containing all matchmaking attributes
+  filterName String? // Filter name used when searching
+
+  // Session data
+  data String // Base64 encoded session data
+
+  // Expiration management
+  expiresAt DateTime // Sessions expire after 8 hours
+  active    Boolean  @default(true)
+
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([owner])
+  @@index([matchId])
+  @@index([expiresAt])
+  @@index([active])
+  @@index([availableSlots])
+  @@index([platform])
+  @@index([gameVersion])
+  @@index([updatedAt])
+}
+
+model News {
+  id                String   @id @default(cuid())
+  storyKey          String   @unique
+  types             String[] // ["transition", "priority", "newswire", "store", "rockstarEditor", "starterpackowned", "starterpacknotowned"]
+  date              Int // Unix timestamp when news becomes active
+  expire            Int      @default(0) // Unix timestamp when news expires (0 = never expires)
+  title             String
+  headline          String? // Actually used as footer text in the UI
+  subtitle          String?
+  content           String
+  url               String?
+  style             String   @default("gta")
+  priority          Int      @default(1)
+  secondaryPriority Int      @default(0)
+  trackingId        Int
+  imagePath         String?
+  imageFilesize     Int?
+  imageType         String? // "portrait", "landscape", etc.
+  extraData         Json? // For any custom fields
+  language          String   @default("en") // Language code for the news item
+  active            Boolean  @default(true) // Whether this news item is active
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@index([storyKey])
+  @@index([date])
+  @@index([expire])
+  @@index([priority])
+  @@index([active])
+  @@index([language])
+}
+
+model ActivePlayer {
+  id         String   @id @default(cuid())
+  RockstarId Int
+  platform   String // 'PS4' or 'XBOX360'
+  lastSeen   DateTime @updatedAt
+  user       User     @relation(fields: [RockstarId], references: [RockstarId])
+
+  @@unique([RockstarId, platform])
+  @@index([platform, lastSeen])
+}
+
+model LaunchVerification {
+  id               String   @id @default(cuid())
+  userId           String
+  consoleId        String
+  ipAddress        String
+  createdAt        DateTime @default(now())
+  expiresAt        DateTime
+  verificationCode String
+  user             User     @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([consoleId])
+  @@index([createdAt])
+}
+
+model Gen9StatLookup {
+  Name                     String  @id @unique
+  Hash                     String  @unique
+  Type                     Int
+  RawType                  String
+  Category                 Int
+  Group                    Int
+  Dirty                    Boolean
+  IsOnlineData             Boolean
+  IsProfileStat            Boolean
+  IsCommunityStat          Boolean
+  ServerAuthoritative      Boolean
+  DirtyInThisSession       Boolean
+  DownloadPriority         Int
+  FlushPriority            Int
+  ReadForRemotePlayers     Boolean
+  IsCharacterStat          Boolean
+  IsPlayerStat             Boolean
+  TriggerEventValueChanged Boolean
+  IsProfileSetting         Boolean
+  BlockReset               Boolean
+  BlockProfileStatFlush    Boolean
+  PlayerInventory          Boolean
+  IsNoSaveStat             Boolean
+  AlwaysFlush              Boolean
+}
+
+model Report {
+  id         String @id @default(cuid())
+  reporterId String
+  reporter   User   @relation(name: "ReportedBy", fields: [reporterId], references: [id])
+
+  // Platform information
+  platform String // "xbox" or "playstation"
+
+  // Reported user information
+  reportedUserId      String? // Optional - if user exists in our system
+  reportedUser        User?   @relation(name: "ReportedUser", fields: [reportedUserId], references: [id])
+  reportedXBLGamertag String? // For Xbox reports
+  reportedPSNId       String? // For PlayStation reports (blueSphereOnlineId)
+  unknownUsername     String? // For when username is unknown
+
+  // Report details
+  title       String
+  description String
+  videoLink   String?
+  imageLinks  String[] // Array of image URLs
+
+  // Status and conversation
+  status             String    @default("pending") // "pending", "reviewing", "resolved", "dismissed"
+  hasUnreadMessages  Boolean   @default(false) // Flag for new messages
+  lastMessageAt      DateTime?
+  lastMessageByAdmin Boolean   @default(false) // Track who sent the last message
+
+  // Conversation messages
+  messages ReportMessage[]
+
+  // Timestamps
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([reporterId])
+  @@index([reportedUserId])
+  @@index([platform])
+  @@index([status])
+  @@index([createdAt])
+  @@index([hasUnreadMessages])
+  @@index([lastMessageAt])
+}
+
+model ReportMessage {
+  id       String @id @default(cuid())
+  reportId String
+  report   Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+
+  // Message content
+  message String
+
+  // Author information
+  authorId String
+  author   User    @relation(fields: [authorId], references: [id])
+  isAdmin  Boolean @default(false)
+
+  // Timestamps
+  createdAt DateTime @default(now())
+
+  @@index([reportId])
+  @@index([createdAt])
+}
+
+model UserIPAddress {
+  id                 String   @id @default(cuid())
+  userId             String
+  blueSphereOnlineId String?
+  ipAddress          String
+  lastSeenAt         DateTime @default(now())
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, ipAddress])
+  @@index([userId])
+  @@index([blueSphereOnlineId])
+  @@index([ipAddress])
+}
+
+model Clan {
+  id             Int               @id @default(autoincrement())
+  name           String            @unique
+  tag            String            @unique
+  motto          String?           @default("")
+  colors         String?           @default("")
+  isSystemClan   Boolean           @default(false)
+  isOpenClan     Boolean           @default(false)
+  isVerifiedClan Boolean           @default(false)
+  clanEmblem     String?           @default("")
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+  primaryMembers User[]            @relation("PrimaryClan")
+  ranks          ClanRank[]
+  memberships    ClanMembership[]
+  invites        ClanInvite[]
+  joinRequests   ClanJoinRequest[]
+  wallMessages   ClanWallMessage[]
+
+  @@index([name])
+  @@index([tag])
+  @@index([isSystemClan])
+  @@index([isOpenClan])
+}
+
+model ClanRank {
+  id          Int              @id @default(autoincrement())
+  clanId      Int
+  name        String
+  rankOrder   Int
+  systemFlags BigInt
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+  clan        Clan             @relation(fields: [clanId], references: [id], onDelete: Cascade)
+  memberships ClanMembership[]
+
+  @@unique([clanId, name])
+  @@unique([clanId, rankOrder])
+  @@index([clanId])
+}
+
+model ClanMembership {
+  id        Int      @id @default(autoincrement())
+  userId    String
+  clanId    Int
+  rankId    Int
+  joinedAt  DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  clan      Clan     @relation(fields: [clanId], references: [id], onDelete: Cascade)
+  rank      ClanRank @relation(fields: [rankId], references: [id])
+
+  @@unique([userId, clanId])
+  @@index([clanId])
+  @@index([userId])
+  @@index([rankId])
+}
+
+model ClanInvite {
+  id        Int      @id @default(autoincrement())
+  clanId    Int
+  inviterId String
+  inviteeId String
+  message   String?  @default("")
+  createdAt DateTime @default(now())
+  clan      Clan     @relation(fields: [clanId], references: [id], onDelete: Cascade)
+  inviter   User     @relation("ClanInviteInviter", fields: [inviterId], references: [id], onDelete: Cascade)
+  invitee   User     @relation("ClanInviteInvitee", fields: [inviteeId], references: [id], onDelete: Cascade)
+
+  @@unique([clanId, inviteeId])
+  @@index([clanId])
+  @@index([inviterId])
+  @@index([inviteeId])
+}
+
+model ClanJoinRequest {
+  id          Int      @id @default(autoincrement())
+  clanId      Int
+  requesterId String
+  createdAt   DateTime @default(now())
+  clan        Clan     @relation(fields: [clanId], references: [id], onDelete: Cascade)
+  requester   User     @relation("ClanJoinRequester", fields: [requesterId], references: [id], onDelete: Cascade)
+
+  @@unique([clanId, requesterId])
+  @@index([clanId])
+  @@index([requesterId])
+}
+
+model ClanWallMessage {
+  id        Int      @id @default(autoincrement())
+  clanId    Int
+  writerId  String
+  message   String
+  createdAt DateTime @default(now())
+  clan      Clan     @relation(fields: [clanId], references: [id], onDelete: Cascade)
+  writer    User     @relation(fields: [writerId], references: [id], onDelete: Cascade)
+
+  @@index([clanId])
+  @@index([writerId])
+  @@index([createdAt])
+}

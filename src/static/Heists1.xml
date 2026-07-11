@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="QueryContent">
+
+<Status>1</Status>
+<Result Count="12" Total="12" Hash="0">
+<r c="OUiCb8225UOEmexyj5Cnww">
+    <m ca="rstar" cd="1426505941" f2="-1" n="Prison Break - Station" l="en" ld="1538697600" pd="1426505944" rci="QS6WYcjJFk2YxqYDMN8mjQ" ud="1520327691" un="Rockstar" v="441">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 173.505,
+        "y": -1022.059,
+        "z": 31.369
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 33.543,
+      "camp": -5.45,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 415.334,
+        "y": -1020.982,
+        "z": 28.155
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Half the team has to get a police cruiser, pose as cops, and go into a police station to get the prison transport schedule. The other half has to retrieve Rashkovsky's stolen car from a cargo ship at the Port of LS.   ]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":122399460,"pu":55654140,"qt":4513449,"qu":3808679}</s>
+</r>
+<r c="nWYscwDOgEqi1w71yVSWCg">
+    <m ca="rstar" cd="1424878118" f2="-1" n="Prison Break - Wet Work" l="en" ld="1538697600" pd="1424878119" rci="opjT3-kJLUOJt16LHNtbUw" ud="1512999458" un="Rockstar" v="307">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -1733.552,
+        "y": 440.327,
+        "z": 128.672
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 96.342,
+      "camp": 0.99,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -1807.577,
+        "y": 457.599,
+        "z": 127.278
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Half the team has to take out some lawyers outside City Hall, and bring back their deposition. The other half has to silently dispatch Rashkovsky's business partner and his guards.]]></de>
+    </m>
+    <r a="0.00" />
+</r>
+<r c="jG5WaSYbHkWZS8td8ZWmpw">
+    <m ca="rstar" cd="1424688500" f2="-1" n="Prison Break - Wet Work " l="en" ld="1538697600" pd="1424688502" rci="JJ9OzPbPo02eQbaniO8E3g" ud="1512996173" un="Rockstar" v="186">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -1733.552,
+        "y": 440.327,
+        "z": 128.672
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 96.342,
+      "camp": 0.99,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -1797.571,
+        "y": 398.606,
+        "z": 111.791
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[ Half the team has to take out some lawyers outside City Hall, and bring back their deposition. The other half has to silently dispatch Rashkovsky's business partner and his guards.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":63124099,"pu":36667792,"qt":723220,"qu":666640}</s>
+</r>
+<r c="d8zTctzUU0eyYmOP9lC3mA">
+    <m ca="rstar" cd="1426497908" f2="-1" n="Series A - Coke" l="en" ld="1538697600" pd="1426497909" rci="20Lu41Px20OJMPdZ6wXG3g" ud="1512996075" un="Rockstar" v="438">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -2138.675,
+        "y": -1041.351,
+        "z": 11.681
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -74.137,
+      "camp": 4.65,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -2046.01,
+        "y": -1030.688,
+        "z": 10.986
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Stick up some frat boy dealers on a yacht off the coast near Del Perro. Come at them from air and sea, then bring their product to Ron.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":51801254,"pu":29817464,"qt":2076984,"qu":1851342}</s>
+</r>
+<r c="gYLPReHiWE2-o4jkIiSncw">
+    <m ca="rstar" cd="1424368155" f2="-1" n="Series A - Trash Truck  " l="en" ld="1538697600" pd="1424368156" rci="6UzZkstFeEeCkvs2lrF_6A" ud="1512996100" un="Rockstar" v="63">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 902.448,
+        "y": -150.702,
+        "z": 118.311
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -74.656,
+      "camp": -30.0,
+      "charcon": -1984782235,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -571.474,
+        "y": -980.971,
+        "z": 21.178
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Get a trash truck and do your rounds collecting molly pills in trash bags from Vagos drop offs. Deal with any assholes you meet and bring the bags to Ron.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":16203433,"pu":12473148,"qt":1292273,"qu":1168144}</s>
+</r>
+<r c="L5qiHLTKzEmZWGg53orFBg">
+    <m ca="rstar" cd="1424368634" f2="-1" n="Series A - Trash Truck" l="en" ld="1538697600" pd="1424368635" rci="-zZdcIxFfU6zmPJyUqu6zw" ud="1512999436" un="Rockstar" v="151">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 902.448,
+        "y": -150.702,
+        "z": 118.311
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -74.656,
+      "camp": -30.0,
+      "charcon": -1984782235,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -571.474,
+        "y": -980.971,
+        "z": 21.178
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Get a trash truck and do your rounds collecting molly pills in trash bags from Vagos drop offs. Deal with any assholes you meet and bring the bags to Ron.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":16057465,"pu":12383988,"qt":1383249,"qu":1243299}</s>
+</r>
+<r c="rgWHozQhiECX01e_pGisiw">
+    <m ca="rstar" cd="1424434208" f2="-1" n="Series A - Trash Truck " l="en" ld="1538697600" pd="1424434209" rci="NuWMXoqFB0OxtRXY9AEOfQ" ud="1512999509" un="Rockstar" v="62">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 902.448,
+        "y": -150.702,
+        "z": 118.311
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -74.656,
+      "camp": -30.0,
+      "charcon": -1984782235,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -571.474,
+        "y": -980.971,
+        "z": 21.178
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 2
+    }
+  }
+}]]></da>
+        <de><![CDATA[Get a trash truck and do your rounds collecting molly pills in trash bags from Vagos drop offs. Deal with any assholes you meet and bring the bags to Ron.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":15715337,"pu":12121108,"qt":1535287,"qu":1374947}</s>
+</r>
+<r c="X2uqGj1rrUq4zRbaCp-eqA">
+    <m ca="rstar" cd="1424193390" f2="-1" n="Series A - Bikers" l="en" ld="1538697600" pd="1424193391" rci="3tYmphlR1ka7IB37wNw45A" ud="1512999562" un="Rockstar" v="447">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 2010.279,
+        "y": 3947.48,
+        "z": 33.423
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 29.702,
+      "camp": 0.61,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 68.7,
+        "y": 3621.335,
+        "z": 38.668
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Creep into the Lost camp at night, take out their guards on the quiet, and bring their vans to Ron. They should be loaded with meds.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":16202081,"pu":12438244,"qt":542365,"qu":500314}</s>
+</r>
+<r c="cddJotwIuECGRl3eRUDf2Q">
+    <m ca="rstar" cd="1424193571" f2="-1" n="Series A - Bikers  " l="en" ld="1538697600" pd="1424193572" rci="kNqG_EaEpUm-F411W5AyIQ" ud="1512996051" un="Rockstar" v="183">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 2010.279,
+        "y": 3947.48,
+        "z": 33.423
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 29.702,
+      "camp": 0.61,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 68.7,
+        "y": 3621.335,
+        "z": 38.668
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Creep into the Lost camp at night, take out their guards on the quiet, and bring their vans to Ron. They should be loaded with meds.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":16168660,"pu":12409332,"qt":564848,"qu":520867}</s>
+</r>
+<r c="y9tCZXhLyESL3cqITz_btg">
+    <m ca="rstar" cd="1424193628" f2="-1" n="Series A - Bikers   " l="en" ld="1538697600" pd="1424193629" rci="PPnsIR0v2U2COyRbED87gw" ud="1512999572" un="Rockstar" v="197">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 2010.279,
+        "y": 3947.48,
+        "z": 33.423
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 29.702,
+      "camp": 0.61,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 68.7,
+        "y": 3621.335,
+        "z": 38.668
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Creep into the Lost camp at night, take out their guards on the quiet, and bring their vans to Ron. They should be loaded with meds. ]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":16179622,"pu":12419344,"qt":558429,"qu":514691}</s>
+</r>
+<r c="KHlLFx052UaH03mfqnWh5w">
+    <m ca="rstar" cd="1426603737" f2="-1" n="Series A - Weed" l="en" ld="1538697600" pd="1426603738" rci="z49DSS9db0i_vh6A2e-Q-g" ud="1520327669" un="Rockstar" v="583">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": -537.496,
+        "y": 4916.167,
+        "z": 160.245
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": 177.58,
+      "camp": -7.39,
+      "charcon": -1984782235,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": -569.068,
+        "y": 5265.666,
+        "z": 69.272
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 3
+    }
+  }
+}]]></da>
+        <de><![CDATA[Go up to the sawmill by Paleto Bay. The Ballas have a huge shipment of weed up there and a pickup truck with a gun placement on it. Get them and bring them to Ron.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":43468302,"pu":25886763,"qt":1698442,"qu":1537971}</s>
+</r>
+<r c="UHsxcdRksEKEWizGt1-ynQ">
+    <m ca="rstar" cd="1424080351" f2="-1" n="Series A - Steal Meth" l="en" ld="1538697600" pd="1424080352" rci="Fo168mMjCUCeN_IKmL4VnA" ud="1520327658" un="Rockstar" v="262">
+        <da><![CDATA[{
+  "mission": {
+    "gen": {
+      "cam": {
+        "x": 2400.072,
+        "y": 4973.218,
+        "z": 60.037
+      },
+      "area": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "camh": -82.933,
+      "camp": -17.04,
+      "charcon": -1984782235,
+      "ltm": 16777215,
+      "ivm": -1,
+      "min": 4,
+      "num": 4,
+      "rank": 12,
+      "start": {
+        "x": 2414.811,
+        "y": 5010.806,
+        "z": 45.483
+      },
+      "optbs": 4096,
+      "rad": 0.0,
+      "subtype": 7,
+      "tnum": 1
+    }
+  }
+}]]></da>
+        <de><![CDATA[Some hillbillies called the O'Neil brothers just got a large shipment of meth cooking ingredients delivered to their farm. Bring a tanker of that stuff to Chef at the gas station.]]></de>
+    </m>
+    <r a="0.00" />
+    <s>{"pt":44427788,"pu":25920823,"qt":720736,"qu":665279}</s>
+</r>
+</Result>
+</Response>
+

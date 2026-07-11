@@ -1,0 +1,417 @@
+<RageCommerceData>
+	<Categories>
+		<Category id="TOP_DEFAULT">
+	</Category>
+	
+
+
+	<Category id="Extras">
+			<Name>PACKS</Name>
+			<Desc/>
+      <CatMemberships>
+        <CatMembership id="TOP_DEFAULT"/>
+      </CatMemberships>
+	  <ImagePaths template="2"><ImagePath path="cloud:/store/images/categoryextra.dds"/></ImagePaths>	
+	</Category>	
+	
+	<Category id="Cash">
+			<Name>CASH</Name>
+			<Desc/>
+      <CatMemberships>
+        <CatMembership id="TOP_DEFAULT"/>
+      </CatMemberships>
+	  <ImagePaths template="2"><ImagePath path="cloud:/store/images/categoryextra.dds"/></ImagePaths>	
+	  <PriorityTags>
+		<PriorityTag name="MP" priority="1"/>
+	  </PriorityTags>
+	</Category>	
+
+	<Category id="COMPAT_PACKS">
+			<Name>COMPATIBILITY PACKS</Name>
+			<Desc/>
+	  <ImagePaths template="2"><ImagePath path="cloud:/store/images/categoryextra.dds"/></ImagePaths>	
+	</Category>	
+	
+
+
+	</Categories>
+
+	<Products>
+		<Product id="cash_pack_A" platformProductId="0x231e0000" consumableId="0x1" releaseTime="">
+			<Name>Red Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc/>
+			<LongDesc>Cash is king in this town. Solve your money problems and help get what you want across Los Santos and Blaine County with the purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.
+			
+Certain limits apply to purchase, use, and redemption. See EULA www.rockstargames.com/eula and Terms of Service www.rockstargames.com/legal for details.
+
+For customer and technical support, please visit www.rockstargames.com/support.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_100.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_B" platformProductId="0xe100b800" consumableId="0x2" releaseTime="">
+			<Name>Tiger Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc/>
+			<LongDesc>Cash is king in this town. Solve your money problems and help get what you want across Los Santos and Blaine County with the purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.
+			
+Certain limits apply to purchase, use, and redemption. See EULA www.rockstargames.com/eula and Terms of Service www.rockstargames.com/legal for details.
+
+For customer and technical support, please visit www.rockstargames.com/support.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_200.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_C" platformProductId="0x39535400" consumableId="0x3" releaseTime="">
+			<Name>Bull Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc/>
+			<LongDesc>Cash is king in this town. Solve your money problems and help get what you want across Los Santos and Blaine County with the purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.
+			
+Certain limits apply to purchase, use, and redemption. See EULA www.rockstargames.com/eula and Terms of Service www.rockstargames.com/legal for details.
+
+For customer and technical support, please visit www.rockstargames.com/support.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_500.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_D" platformProductId="0x35485400" consumableId="0x4" releaseTime="">
+			<Name>Great White Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc/>
+			<LongDesc>Cash is king in this town. Solve your money problems and help get what you want across Los Santos and Blaine County with the purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.
+			
+Certain limits apply to purchase, use, and redemption. See EULA www.rockstargames.com/eula and Terms of Service www.rockstargames.com/legal for details.
+
+For customer and technical support, please visit www.rockstargames.com/support.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_1250.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_E" platformProductId="0xa4085c00" consumableId="0x5" releaseTime="">
+			<Name>Whale Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>Cash is king in this town. Solve your money problem and help get what you want across Los Santos and Blaine County with the occasional purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.
+
+Certain limits apply to purchase, use, and redemption. See EULA www.rockstargames.com/eula and Terms of Service www.rockstargames.com/legal for details.
+
+For customer and technical support, please visit www.rockstargames.com/support.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_3500.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="cash_pack_F" platformProductId="0x8c4c8400" consumableId="0x6" releaseTime="">
+			<Name>Megalodon Shark Cash Card - $[cash pack amount]</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>The biggest predator in history. Solve your money problem and help get what you want across Los Santos and Blaine County with the occasional purchase of cash packs for Grand Theft Auto Online. All purchased cash is automatically deposited into your character’s bank account. Spend wisely, cash therapy is fleeting.
+
+Certain limits apply to purchase, use, and redemption. See EULA www.rockstargames.com/eula and Terms of Service www.rockstargames.com/legal for details.
+
+For customer and technical support, please visit www.rockstargames.com/support.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/cash/GTAV_STORE_Credit_8000.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Cash"/>
+			</CatMemberships>	
+		</Product>
+
+		<Product id="collectors_ed" platformProductId="0x40ffb400" releaseTime="">
+			<Name>Collector's Edition Pack</Name>
+			<ShortDesc/>
+			<LongDesc>The Collector’s Edition Pack provides additional content for Grand Theft Auto V including Stunt Plane Trials, a special ability boost, additional weapons, garage property with unique vehicles, bonus outfits and tattoos, special deals from shopkeepers, access to the Atomic Blimp aircraft and custom characters for Grand Theft Auto Online.
+
+Grand Theft Auto Online specific content will become available at the launch of Grand Theft Auto Online.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Collectors.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>	
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_collectorsedition"/>
+			</ContainedPackageNames>
+			<Dependencies>
+				<Dependency id="0x40ffb400"/>
+			</Dependencies>
+		</Product>
+
+		<Product id="special_ed" platformProductId="0x5f426400" releaseTime="">
+			<Name>Special Edition Pack</Name>
+			<ShortDesc/>
+			<LongDesc>The Special Edition Pack provides additional content for Grand Theft Auto V including Stunt Plane Trials, a special ability boost, additional weapons, bonus outfits and tattoos, special deals from shopkeepers and access to the Atomic Blimp aircraft.
+			</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Special.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>	
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_specialedition"/>
+			</ContainedPackageNames>
+			<Dependencies>
+				<Dependency id="0x5f426400"/>
+			</Dependencies>
+		</Product>
+
+		<Product id="atomic_blimp" platformProductId="0x43691400" releaseTime="">
+			<Name>Atomic Blimp</Name>
+			<ShortDesc/>
+			<LongDesc>With access to the Atomic Blimp, players can take control of the most leisurely aircraft in the Los Santos skies.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Editions_Preorder.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+			</CatMemberships>	
+			<ContainedPackageNames>
+				<ContainedPackageName name="dlc_atomicblimp"/>
+			</ContainedPackageNames>
+			<Dependencies>
+				<Dependency id="0x43691400"/>
+			</Dependencies>
+		</Product>
+		
+		<Product id="beachbum_pack" platformProductId="0x6c8a0c00" releaseTime="">
+			<Name>Beach Bum Update</Name>
+			<ShortDesc/>
+			<LongDesc>Chill out with the free Beach Bum Update featuring all new beach-inspired customization options including striped board shorts, neon short shorts, inane tribal tattoos and shaggy hair. Cruise the Great Ocean Highway in new vehicles including the Paradise beach van, Bifta dune buggy, or take to the seas in the luxurious Speeder speedboat. Compete in new activities around the beaches of Los Santos and Blaine County including new Races, Deathmatches, Parachuting, Gang Attacks and more, or totally ruin everyone’s vibe with new weapons like the brutal new broken bottle melee weapon and SNS Pistol.
+
+Add-on content, Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Beachbum.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="MPBeach DLC"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="beachbum_pack_j" platformProductId="0xc5e84800" releaseTime="">
+			<Name>Beach Bum Update</Name>
+			<ShortDesc/>
+			<LongDesc>Chill out with the free Beach Bum Update featuring all new beach-inspired customization options including striped board shorts, neon short shorts, inane tribal tattoos and shaggy hair. Cruise the Great Ocean Highway in new vehicles including the Paradise beach van, Bifta dune buggy, or take to the seas in the luxurious Speeder speedboat. Compete in new activities around the beaches of Los Santos and Blaine County including new Races, Deathmatches, Parachuting, Gang Attacks and more, or totally ruin everyone’s vibe with new weapons like the brutal new broken bottle melee weapon and SNS Pistol.
+
+Add-on content, Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Beachbum.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="MPBeach DLC"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="ctf_compat_pack" platformProductId="0x5e273400" releaseTime="">
+			<Name>Capture Update</Name>
+			<ShortDesc/>
+			<LongDesc>In a proper Grand Theft Auto twist on classic capture the flag, Capture mode brings territory infiltration and a new form of team-versus-team treachery into GTA Online. Up to four squads battle to steal contraband, trucks, buses and more from opponent's bases using high-speed vehicles, explosive weaponry and cunning teamwork. Shared Capture mode pits teams against each other in the fight over valuables located throughout the world.  In Vehicle Capture, teams battle to collect coveted vehicles from their rivals’ base and make a successful getaway. Craft, cooperation and team tactics are key. This free Capture update also brings a host of new jobs to GTA Online, accessible via the open world and also directly through your phone.
+
+Update content. The latest title update is required to use this content. Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Gift_CM_Title.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpChristmas"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="valentines_pack" platformProductId="0x310de400" releaseTime="">
+			<Name>Compatibility Pack #1</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>This free compatibility pack enables everyone in GTA Online to see the latest content such as clothing, vehicles, and weapons. Please note, this download is required and does not allow you to use content you have not downloaded or purchased.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Valentines.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="MPValentines DLC"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="business_pack" platformProductId="0x47895000" releaseTime="">
+			<Name>The Business Update</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>Enjoy the perks of rising through the ranks of your Los Santos and Blaine County business ventures with The  Business Update. Thrill-seekers and weekend warriors can hop in all-new, blazing fast sports cars, or pilot the new Vestra airplane… or swing by Ammu-Nation to pick up the new Heavy Pistol and Special Carbine for some serious firepower. Dress for success with formal and business casual attire options like new suit jackets, slacks, glasses, heels and blouses, or don new all-business hairstyles and currency themed tattoos.
+
+Update content. The latest title update is required to use this content. Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Business.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="MPBusiness DLC"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="business_pack_2" platformProductId="0x69fcd800" releaseTime="">
+			<Name>The High Life Update</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>Time to expand your foothold in Los Santos and upgrade from your dingy East Los Santos residence to an all new high end apartment, or if you’re truly living the high life, purchase a second garage or apartment property altogether. You’ll also have new wardrobe items, the Dinka Thrust motorcycle and 3 new cars to choose from including the super class Pegassi Zentorno. Protect your investments with the new powerful Bullpup Rifle, in stock at Ammu-Nation. Also introducing the new Mental State stat, which lets you see just how passive or psychotically unhinged your fellow Los Santos citizens really are – best to double check before you invite any into your new pad.
+
+Update content. The latest title update is required to use this content. Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Business2.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpBusiness2"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="hipster_pack" platformProductId="0xce01f400" releaseTime="">
+			<Name>The 'I’m Not a Hipster' Update</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>Express your incredible individualism and stand out from the herd with The post ironic, artisanal, organic, entirely independent, re-claimed “I’m not a Hipster” Update. This new content update features all new retro print tees, brutally tight skinny jeans, socially significant hairstyles, ironic, post ironic  and non-ironic tattoos and animal masks and much more,  as well as additional enhancements to general gameplay to ensure the world is constantly evolving. 
+
+Choose from seven unique vehicles including classic nostalgia rides like the Glendale, Blade and Rhapsody – affordable cars that seem casual on the surface, but have hidden potential to be unleashed with a few modifications. The environmentally conscious set can check out the Panto microcar, while those looking to roll with their Crew in more ostentatious style can add the massive 3-axel, 6-seater Dubsta to their fleet. 
+
+Even Ammu-Nation is getting in on the latest non-ironic trends with the Vintage Pistol and Antique Cavalry Dagger now in stock. Make sure to try all these out in the slew of new Jobs, as part of your long arduous journey to become one of Los Santos' effortlessly cool.
+
+Update content. The latest title update is required to use this content. Grand Theft Auto V required to play.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Hipster.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="MPHipster DLC"/>
+			</ContainedPackageNames>
+		</Product>
+
+		<Product id="independence_pack" platformProductId="0xb118bc00" releaseTime="">
+			<Name>Compatibility Pack #2</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>This free compatibility pack enables everyone in GTA Online to see the latest content such as clothing, vehicles, and weapons. Please note, this download is required and does not allow you to use content you have not downloaded or purchased.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Independence.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpIndependence"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="flight_school" platformProductId="0x15d43400" releaseTime="">
+			<Name>The San Andreas Flight School Update</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>You think you've got what it takes to be awesome? Want to take yourself to the absolute limit – hell, past the limit – and live to high-five on the other side? Get yourself down to The San Andreas Flight School. Grab the stick of the fast and nimble Western Besra training jet and push it to the edge of the envelope. Master absolute air superiority in 10 new solo missions that will make you comfortable in any pilot’s danger zone, including combat maneuvering, low-flying challenges, formation flying and more.
+ 
+Once it’s ‘mission accomplished’ and you’re out of your heroic new Flight Suit, spend your shore leave buzzing the skies in the luxury Swift helo, or cram your entire squad into the new 16-seater Buckingham Mil-Jet jet for team transport in style. Hit the silk with a collection of new Chutes and Parachute Bags, and if things get a little out of control, rely on the Reserve Parachute to give you a second chance at that soft landing – or use it to get creative with your precision dives. Later, hit the streets in the shapely Invetero Coquette Classic, available in either hard-top or topless roadster variants for whatever your sea-level speed fix.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Flight.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpPilot"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="LTS" platformProductId="0xc6506c00" releaseTime="">
+			<Name>The Last Team Standing Update</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>You’ve only got one life, use it wisely: the Last Team Standing Update introduces powerful weaponry, tactical gear, high-performance vehicles and all-new Creator features to celebrate Grand Theft Auto Online’s most high stakes mode. The Last Team Standing Update features 10 new Last Team Standing Jobs spread out across Los Santos and Blaine County and additional gameplay changes to allow for a greater range of game types and better matchmaking.
+
+Visit Ammu-nation to expand your arsenal with a pair of potent new firearms: the Heavy Shotgun delivers serious stopping power in close quarters, and the Marksman Rifle can drop targets from long range with lethal accuracy. And suit up your team with new Outfits, along with new Masks, Tops, Pants, Bulletproof Helmets and more.
+
+Rule the road with two new Motorcycles – the Shitzu Hakuchou sport bike and the LCC Innovation chopper. Or, for those with more sophisticated tastes, show off your elite style in the fiery Lampadati Furore GT.
+
+This update also presents the launch of the Last Team Standing Creator Mode. You can now design original GTA Online Jobs in this strategic and deadly mode that pits teams against one another with no second chances. This Creator update features a new option for building even more dynamic matches across other modes – with the ability to add Rounds to Captures and Last Team Standing Jobs. Or raise the stakes by adding rounds to Rockstar Created LTS, Captures and Versus Missions. And be sure to take advantage of the new Forced Weapon setting, allowing you to limit weapons for specific options like “Snipers-Only”.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/LTS.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpLTS"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="christmas_2" platformProductId="0x4c19d400" releaseTime="">
+			<Name>Festive Surprise</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>It’s that most wonderful time of the year in Los Santos. Jump into Grand Theft Auto Online for a Festive Surprise. Warm up your season’s tidings with brand new items stocked in Ammu-Nation with care: a new Homing Missile Launcher and Proximity Mines are here just in time for the holidays. 
+
+Keep your eyes on the sky for special crate drops and the famed, extremely rare San Andreas snowfall.  Visit Legion Square to see the Christmas Tree or pack a snowball and take out nearby gawkers donned in holiday pajamas, new scarves, hats, masks and more. When the snowball fight heats up, make your getaway in new vehicles including a tricked out Hot Rod Christmas Ratloader, the Slam Van or the Jester with a flashy new race livery. 
+
+And some Gifts for both the naughty and nice will be automatically deposited into your inventory for an explosive holiday with friends. Enjoy the Festive Surprise through the holidays.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Christmas2.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpChristmas2"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="heists" platformProductId="0xdcf97800" releaseTime="">
+			<Name>Grand Theft Auto Online Heists</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>Heists, a brand new 4-player cooperative experience for GTA Online, giving players the chance to team up to pull off a string of intense, multi-part heists, raids and robberies across Los Santos and Blaine County.
+
+Plan, Prepare, Execute – Online Heists span numerous missions featuring new gameplay, vehicles, weapons, and scenarios to test a team’s full set of skills: from computer hacking to stealth infiltration, precision driving to aerial dogfighting, sniping, skydiving and much more. 
+
+4-Player Teams, 4 Ways to Play – Choose your roles and strategize to complete each stage of a Heist, with tight communication and coordination the key to success. Some missions will require the team to work as a single unit, while others will break the team into separate roles to complete key objectives. Replay each Heist to experience a different perspective on the action, and complete Elite Challenges for extra cash.
+
+Also try Adversary Modes, new Daily Objectives and other Freemode activities.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Heists.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpHeist"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="luxe" platformProductId="0xaf84e800" releaseTime="">
+			<Name>The Ill-Gotten Gains Update Part 1</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>Due to a surge in high-end crime across southern San Andreas, demand for luxury goods and services is at an all-time high. Upscale merchants of all kinds are scrambling to fill their inventories to serve the newly wealthy. This is the first of two major deliveries to hit the showrooms of luxury car dealerships, the shelves of top arms suppliers and other prestigious retailers as part of the Ill-Gotten Gains Update.</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Luxe1_EN.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpLuxe"/>
+			</ContainedPackageNames>
+		</Product>
+		
+		<Product id="luxe2" platformProductId="0x6c929c00" releaseTime="">
+			<Name>The Ill-Gotten Gains Update Part 2</Name>
+			<ShortDesc></ShortDesc>
+			<LongDesc>A love of the finer things is one of the few ways a career criminal can celebrate success – something the high-end retailers of Rockford Hills and beyond know all too well. With an outbreak of Heists hitting the city recently, merchants have rushed to re-stock their shelves and showrooms with exotic collectables to accommodate Los Santos’ new class of heavily armed and upwardly mobile professionals.  
+
+Part 2 of The Ill-Gotten Gains Update delivers desirable new vehicles, unforgiving new weapons and clothes to make you stand out in a crowd. For the unconventional, the Coil Brawler is a luxury sports-styled off-roader with raised suspension and a 400 horsepower engine that will muscle its way over any terrain. If top speed is what matters most, the Progen T20 is among the fastest cars to ever arrive in Los Santos, while the Dinka Vindicator motorcycle adds agility and speed, featuring a kinetic energy recovery system (KERS) that stores energy from braking and delivers a burst of speed on activation.  
+
+For a level of refinement that only dirty money can buy, the Lampadati Toro screams sophistication – a speedboat crafted with the finest timber from protected rainforests, six-inch lacquer finishing and twin v12 engines. Meanwhile, a range of exotic weaponry hits Ammu-Nation with the wood-finished Marksman Pistol, a single-shot weapon with more stopping power than a pump action shotgun, or the slightly more personal, solid gold Knuckle Dusters.
+
+For those who prefer to wear their status as conspicuous consumers, the iFruit Snap Watch adds a hint of tech savvy to your wrist, or opt for a more classically opulent timepiece with the Medici Radial or Covgari Universe – all available at retailers across Los Santos alongside a massive selection of new apparel and jewelry for men and women. 
+
+In other news, the Ill-Gotten Gains Update Part 2 brings the debut of a new radio station, The Lab on all four console versions of GTAV. Hosted by Dr. No and the Chemical Bro., The Lab features all new tracks created by The Alchemist and Oh No and inspired by their work on the original score for GTAV, with featuring guest appearances from Killer Mike, Little Dragon, Earl Sweatshirt, Phantogram, Freddie Gibbs and more.
+</LongDesc>
+			<ImagePaths><ImagePath path="store/images/editions/Luxe2.dds"/></ImagePaths>
+			<CatMemberships>
+				<CatMembership id="Extras"/>
+				<CatMembership id="COMPAT_PACKS"/>
+			</CatMemberships>
+			<ContainedPackageNames>
+				<ContainedPackageName name="mpLuxe2"/>
+			</ContainedPackageNames>
+		</Product>
+
+	</Products>
+
+
+</RageCommerceData>

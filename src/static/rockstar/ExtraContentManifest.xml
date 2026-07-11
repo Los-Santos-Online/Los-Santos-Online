@@ -1,0 +1,45 @@
+<CExtraContentCloudManifest>
+	<Files></Files>
+	<CompatibilityPacks>
+		<Item>
+			<Name>MPBeach DLC</Name>
+			<ProductId/>
+		</Item>
+		<Item>
+			<Name>mpChristmas</Name>
+		</Item>
+		<Item>
+			<Name>MPValentines DLC</Name>
+		</Item>
+		<Item>
+			<Name>MPBusiness DLC</Name>
+		</Item>
+		<Item>
+			<Name>mpBusiness2</Name>
+		</Item>
+		<Item>
+			<Name>MPHipster DLC</Name>
+		</Item>
+		<Item>
+			<Name>mpIndependence</Name>
+		</Item>
+		<Item>
+			<Name>mpPilot</Name>
+		</Item>
+		<Item>
+			<Name>mpLTS</Name>
+		</Item>				
+		<Item>
+			<Name>mpChristmas2</Name>
+		</Item>
+		<Item>
+			<Name>mpHeist</Name>
+		</Item>			
+		<Item>
+			<Name>mpLuxe</Name>
+		</Item>					
+		<Item>
+			<Name>mpLuxe2</Name>
+		</Item>											
+	</CompatibilityPacks>
+</CExtraContentCloudManifest>
