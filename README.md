@@ -68,3 +68,7 @@ Expected response:
 
 Generated secrets, `.env`, and database dumps must never be committed. The
 repository ignore rules cover the standard generated paths.
+
+## License
+
+This project is licensed under the [GNU Affero General Public License v3.0](LICENSE).
